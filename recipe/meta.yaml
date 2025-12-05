@@ -1,5 +1,5 @@
 {% set name = "fps-frontend" %}
-{% set version = "0.9.4" %}
+{% set version = "0.9.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fps_frontend-{{ version }}.tar.gz
-  sha256: a73885e006d83c1266f53700d63ad9d36339188fe4b3e8f576209be198e12c84
+  sha256: 6a8361280dc2a2646d4d395389ea274bc56bebff15bb2d8840d32ac1e4eb13a5
 
 build:
   noarch: python
